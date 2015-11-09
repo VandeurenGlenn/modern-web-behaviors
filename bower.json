@@ -1,0 +1,27 @@
+{
+  "name": "modern-web-behaviors",
+  "version": "0.0.1",
+  "authors": [
+    "Anonymous <VandeurenGlenn@example.com>"
+  ],
+  "description": "An Behavior providing a solution to simple modern web problems.",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "seed"
+  ],
+  "main": "modern-web-behaviors.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/VandeurenGlenn/seed-element/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}

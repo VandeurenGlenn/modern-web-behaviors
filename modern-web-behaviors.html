@@ -1,0 +1,30 @@
+<!--
+@license
+Copyright (c) 2015 Glenn Vandeuren. All rights reserved.
+-->
+<link rel="import" href="../polymer/polymer.html">
+
+<script>
+  /**
+  * An Behavior providing a solution to simple modern web problems.
+  *
+  * @demo demo/index.html
+  * @Behavior App.ModernWebBehaviors
+  */
+  var App = App || {};
+  App.ModernWebBehaviors = {
+    /**
+    * converts an url to https
+    * @type{?Method}
+    */
+    toHttps: function (url) {
+      if (url.includes('http') && !url.includes('https')) {
+        return url.replace('http', 'https');
+      } else if (!url.includes('http') && !url.includes('https')) {
+        var https = 'https://';
+        return https.concat(url);
+      }
+    }
+  }
+
+</script>
