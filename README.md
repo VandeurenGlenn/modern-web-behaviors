@@ -1,6 +1,6 @@
 # modern-web-behaviors
 
-An Behavior providing a solution to simple modern web problems.
+An Behavior providing a solution to modern web problems.
 
 
 ## Dependencies
